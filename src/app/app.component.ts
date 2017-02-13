@@ -1,5 +1,7 @@
 import {Component} from '@angular/core';
 import {initializeApp, database} from 'firebase';
+import {firebaseConfig} from "../environments/firebase.config";
+import {AngularFire, FirebaseListObservable, FirebaseObjectObservable} from "angularfire2";
 
 @Component({
   selector: 'fp-root',
@@ -9,22 +11,70 @@ import {initializeApp, database} from 'firebase';
 export class AppComponent {
   title = 'fp works!';
 
-  constructor() {
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyAQmr-eLJCFf6TIMU8prx_ukLgYZ9x1E-U",
-      authDomain: "final-project-dfce9.firebaseapp.com",
-      databaseURL: "https://final-project-dfce9.firebaseio.com",
-      storageBucket: "final-project-dfce9.appspot.com",
-      messagingSenderId: "710917267822"
-    };
-    initializeApp(config);
+  courses$: FirebaseListObservable<any>;
+  lesson$: FirebaseObjectObservable<any>;
 
-    var root = database().ref();
+  lastCourse: any;
 
-    root.on('value', function (snap) {
-      console.log(snap.val())
-    });
+  constructor(private af: AngularFire) {
+
+    this.courses$ = af.database.list('courses');
+
+    // courses$.subscribe(
+    //   courses => console.log(courses)
+    // )
+    // aeeeee mokra skratejnca
+    // this.courses$.subscribe(console.log);
+    // query course
+    // const course$ = af.database.object('courses/-Kcqjrc1NaUSZeEd5q1A');
+    // course$.subscribe(console.log)
+
+    // this.courses$.subscribe(console.log);
+
+    // set last course
+    this.courses$.map(courses => courses[courses.length - 1])
+      .subscribe(
+        course => {
+          // console.log(course);
+          this.lastCourse = course
+        }
+      );
+
+    this.lesson$ = af.database.object('lessons/-KcrHSV6bUwquzxviXy8');
 
   }
+
+  listPush() {
+    this.courses$.push({description: "TEST NEW COURSE"})
+      .then(
+        (course) => console.log('List Push Done. List added: ', course.path.o[1]),
+        console.error
+      )
+  }
+
+  listRemove() {
+
+    this.courses$.remove(this.lastCourse);
+
+  }
+
+  listUpdate() {
+
+    this.courses$.update(this.lastCourse,
+      {description: "Updated course title"})
+
+  }
+
+  objectUpdate() {
+    this.lesson$.update({description: "NEW DESCRIPTION"})
+  }
+
+  objectSet() {
+    this.lesson$.set({description: "NEW DESCRIPTION"})
+  }
+
+  objectRemove() {
+    this.lesson$.remove()
+  }
+
 }
