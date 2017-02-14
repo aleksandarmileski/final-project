@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 import { CoursesService } from "../shared/model/courses.service";
 import { ActivatedRoute } from "@angular/router";
 export var CourseDetailComponent = (function () {
@@ -17,7 +17,8 @@ export var CourseDetailComponent = (function () {
     }
     CourseDetailComponent.prototype.ngOnInit = function () {
         var courseUrl = this.route.snapshot.params['id'];
-        this.coursesService.findLessonsForCourse(courseUrl);
+        this.course$ = this.coursesService.findCourseByUrl(courseUrl);
+        this.lessons$ = this.coursesService.findAllLessonsForCourse(courseUrl);
     };
     CourseDetailComponent = __decorate([
         Component({

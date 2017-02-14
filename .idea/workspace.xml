@@ -2,39 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ad6e5fe-bd0d-468f-95c1-e3b307bc659b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/out-tsc/app/course-detail/course-detail.component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/out-tsc/app/course-detail/course-detail.component.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/out-tsc/app/course-detail/course-detail.component.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/out-tsc/app/course-detail/course-detail.component.spec.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/out-tsc/app/shared/model/course.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/out-tsc/app/shared/model/course.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/out-tsc/app/shared/model/courses.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/out-tsc/app/shared/model/courses.service.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/out-tsc/app/shared/model/courses.service.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/out-tsc/app/shared/model/courses.service.spec.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/course-detail/course-detail.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/course-detail/course-detail.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/course-detail/course-detail.component.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/course-detail/course-detail.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/shared/model/course.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/shared/model/courses.service.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/shared/model/courses.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/app/app.module.js" afterPath="$PROJECT_DIR$/dist/out-tsc/app/app.module.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/app/app.module.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/app/app.module.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/app/course-detail/course-detail.component.js" afterPath="$PROJECT_DIR$/dist/out-tsc/app/course-detail/course-detail.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/app/course-detail/course-detail.component.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/app/course-detail/course-detail.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/app/course-detail/course-detail.component.spec.js" afterPath="$PROJECT_DIR$/dist/out-tsc/app/course-detail/course-detail.component.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/app/course-detail/course-detail.component.spec.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/app/course-detail/course-detail.component.spec.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/app/courses/courses.component.js" afterPath="$PROJECT_DIR$/dist/out-tsc/app/courses/courses.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/app/courses/courses.component.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/app/courses/courses.component.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/app/router.config.js" afterPath="$PROJECT_DIR$/dist/out-tsc/app/router.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/app/router.config.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/app/router.config.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.html" afterPath="$PROJECT_DIR$/src/app/app.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/courses/courses.component.html" afterPath="$PROJECT_DIR$/src/app/courses/courses.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/courses/courses.component.ts" afterPath="$PROJECT_DIR$/src/app/courses/courses.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/home/home.component.html" afterPath="$PROJECT_DIR$/src/app/home/home.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/router.config.ts" afterPath="$PROJECT_DIR$/src/app/router.config.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/top-menu/top-menu.component.html" afterPath="$PROJECT_DIR$/src/app/top-menu/top-menu.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/app/shared/model/courses.service.js" afterPath="$PROJECT_DIR$/dist/out-tsc/app/shared/model/courses.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/app/shared/model/courses.service.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/app/shared/model/courses.service.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/app/shared/model/courses.service.spec.js" afterPath="$PROJECT_DIR$/dist/out-tsc/app/shared/model/courses.service.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/app/shared/model/courses.service.spec.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/app/shared/model/courses.service.spec.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/course-detail/course-detail.component.html" afterPath="$PROJECT_DIR$/src/app/course-detail/course-detail.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/course-detail/course-detail.component.ts" afterPath="$PROJECT_DIR$/src/app/course-detail/course-detail.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/shared/model/courses.service.ts" afterPath="$PROJECT_DIR$/src/app/shared/model/courses.service.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -53,14 +35,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="courses.service.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/shared/model/courses.service.ts">
+      <file leaf-file-name="course-detail.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/course-detail/course-detail.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="224">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,7 +58,6 @@
         <option value="$PROJECT_DIR$/src/environments/firebase.config.ts" />
         <option value="$PROJECT_DIR$/src/app/populate-db.ts" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/app/lessons-list/lessons-list.component.ts" />
         <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/shared/model/lessons.service.ts" />
         <option value="$PROJECT_DIR$/src/app/shared/model/lesson.ts" />
@@ -97,9 +76,10 @@
         <option value="$PROJECT_DIR$/src/app/courses/courses.component.ts" />
         <option value="$PROJECT_DIR$/src/app/router.config.ts" />
         <option value="$PROJECT_DIR$/src/app/courses/courses.component.html" />
-        <option value="$PROJECT_DIR$/src/app/course-detail/course-detail.component.html" />
-        <option value="$PROJECT_DIR$/src/app/course-detail/course-detail.component.ts" />
         <option value="$PROJECT_DIR$/src/app/shared/model/courses.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/course-detail/course-detail.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/lessons-list/lessons-list.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/course-detail/course-detail.component.html" />
       </list>
     </option>
   </component>
@@ -264,6 +244,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lessons-list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Final Poject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Final Poject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="course-detail" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -359,12 +361,20 @@
       <workItem from="1486736698821" duration="1623000" />
       <workItem from="1486973515763" duration="18332000" />
       <workItem from="1487060769681" duration="19000" />
-      <workItem from="1487060800600" duration="4628000" />
+      <workItem from="1487060800600" duration="10870000" />
     </task>
+    <task id="LOCAL-00001" summary="Added style and courses">
+      <created>1487065538244</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1487065538244</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24602000" />
+    <option name="totallyTimeSpent" value="30844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="720" y="0" width="720" height="870" extended-state="0" />
@@ -378,7 +388,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32853404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -395,6 +405,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added style and courses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added style and courses" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -455,13 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/shared/model/lessons.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -473,20 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/lessons-list/lessons-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/lessons-list/lessons-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -586,9 +581,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -608,31 +601,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/course-detail/course-detail.component.html">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="176">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/shared/model/courses.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/lessons-list/lessons-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/lessons-list/lessons-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/course-detail/course-detail.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="64">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/model/courses.service.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/course-detail/course-detail.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="224">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -7,24 +7,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
-import { AppComponent } from './app.component';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { FormsModule } from "@angular/forms";
+import { HttpModule } from "@angular/http";
+import { AppComponent } from "./app.component";
 import { AngularFireModule } from "angularfire2";
 import { firebaseConfig } from "../environments/firebase.config";
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from "./home/home.component";
 import { LessonsService } from "./shared/model/lessons.service";
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/do';
-import { LessonsListComponent } from './lessons-list/lessons-list.component';
+import "rxjs/add/operator/map";
+import "rxjs/add/operator/do";
+import { LessonsListComponent } from "./lessons-list/lessons-list.component";
 import { RouterModule } from "@angular/router";
 import { routerConfig } from "./router.config";
-import { TopMenuComponent } from './top-menu/top-menu.component';
-import { CoursesComponent } from './courses/courses.component';
+import { TopMenuComponent } from "./top-menu/top-menu.component";
+import { CoursesComponent } from "./courses/courses.component";
 import { CoursesService } from "./shared/model/courses.service";
-import { CourseDetailComponent } from './course-detail/course-detail.component';
+import { CourseDetailComponent } from "./course-detail/course-detail.component";
 export var AppModule = (function () {
     function AppModule() {
     }

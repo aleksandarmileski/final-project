@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 import { CoursesService } from "../shared/model/courses.service";
 export var CoursesComponent = (function () {
     function CoursesComponent(coursesService) {

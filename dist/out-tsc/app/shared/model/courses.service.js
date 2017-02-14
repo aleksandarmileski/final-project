@@ -8,22 +8,40 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Injectable } from "@angular/core";
+import { Observable } from "rxjs";
 import { Course } from "./course";
-import { AngularFire } from "angularfire2";
+import { AngularFireDatabase } from "angularfire2";
 export var CoursesService = (function () {
-    function CoursesService(af) {
-        this.af = af;
+    function CoursesService(db) {
+        this.db = db;
     }
     CoursesService.prototype.findAllCourses = function () {
-        return this.af.database.list('courses')
+        return this.db.list('courses')
             .map(Course.fromJsonArray);
     };
-    CoursesService.prototype.findLessonsForCourse = function (courseUrl) {
-        console.log(courseUrl);
+    CoursesService.prototype.findCourseByUrl = function (courseUrl) {
+        return this.db.list('courses', {
+            query: {
+                orderByChild: 'url',
+                equalTo: courseUrl
+            }
+        }).map(function (results) { return results[0]; });
+    };
+    CoursesService.prototype.findLessonKeysPerCourseUrl = function (courseUrl) {
+        var _this = this;
+        return this.findCourseByUrl(courseUrl)
+            .switchMap(function (course) { return _this.db.list("lessonsPerCourse/" + course.$key); })
+            .map(function (lspc) { return lspc.map(function (lpc) { return lpc.$key; }); });
+    };
+    CoursesService.prototype.findAllLessonsForCourse = function (courseUrl) {
+        var _this = this;
+        return this.findLessonKeysPerCourseUrl(courseUrl)
+            .map(function (lspc) { return lspc.map(function (lessonKey) { return _this.db.object('lessons/' + lessonKey); }); })
+            .flatMap(function (fbojs) { return Observable.combineLatest(fbojs); });
     };
     CoursesService = __decorate([
         Injectable(), 
-        __metadata('design:paramtypes', [AngularFire])
+        __metadata('design:paramtypes', [AngularFireDatabase])
     ], CoursesService);
     return CoursesService;
 }());

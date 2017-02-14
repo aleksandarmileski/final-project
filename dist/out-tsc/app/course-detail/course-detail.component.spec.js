@@ -1,5 +1,5 @@
-import { async, TestBed } from '@angular/core/testing';
-import { CourseDetailComponent } from './course-detail.component';
+import { async, TestBed } from "@angular/core/testing";
+import { CourseDetailComponent } from "./course-detail.component";
 describe('CourseDetailComponent', function () {
     var component;
     var fixture;

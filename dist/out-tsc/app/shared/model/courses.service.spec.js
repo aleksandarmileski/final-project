@@ -1,6 +1,5 @@
-/* tslint:disable:no-unused-variable */
-import { TestBed, inject } from '@angular/core/testing';
-import { CoursesService } from './courses.service';
+import { TestBed, inject } from "@angular/core/testing";
+import { CoursesService } from "./courses.service";
 describe('CoursesService', function () {
     beforeEach(function () {
         TestBed.configureTestingModule({
