@@ -1,10 +1,11 @@
+
+<div class="row">
   <h2>All Lessons</h2>
-
   <h4>Total Lessons: {{lessons?.length}}</h4>
+  <input class="form-control search-bar" placeholder="Search" (keyup)="search(input.value)" #input>
+</div>
 
-  <input class="search-bar" placeholder="Search" (keyup)="search(input.value)" #input>
-
-  <div class="lesson-list-container v-h-center-block-parent">
-    <fp-lessons-list [lessons]="filtered"></fp-lessons-list>
-  </div>
+<div class="lesson-list-container v-h-center-block-parent">
+  <fp-lessons-list [lessons]="filtered"></fp-lessons-list>
+</div>
 

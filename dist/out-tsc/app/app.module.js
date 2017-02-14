@@ -23,6 +23,8 @@ import { RouterModule } from "@angular/router";
 import { routerConfig } from "./router.config";
 import { TopMenuComponent } from './top-menu/top-menu.component';
 import { CoursesComponent } from './courses/courses.component';
+import { CoursesService } from "./shared/model/courses.service";
+import { CourseDetailComponent } from './course-detail/course-detail.component';
 export var AppModule = (function () {
     function AppModule() {
     }
@@ -33,7 +35,8 @@ export var AppModule = (function () {
                 HomeComponent,
                 LessonsListComponent,
                 TopMenuComponent,
-                CoursesComponent
+                CoursesComponent,
+                CourseDetailComponent
             ],
             imports: [
                 BrowserModule,
@@ -42,7 +45,10 @@ export var AppModule = (function () {
                 AngularFireModule.initializeApp(firebaseConfig),
                 RouterModule.forRoot(routerConfig)
             ],
-            providers: [LessonsService],
+            providers: [
+                LessonsService,
+                CoursesService
+            ],
             bootstrap: [AppComponent]
         }), 
         __metadata('design:paramtypes', [])

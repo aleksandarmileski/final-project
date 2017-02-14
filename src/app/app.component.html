@@ -4,15 +4,13 @@
 <!--<button (click)="this.objectUpdate()">Object Update</button>-->
 <!--<button (click)="this.objectSet()">Object Set</button>-->
 <!--<button (click)="this.objectRemove()">Object Remove</button>-->
-<div class="container">
-  <main class="l-main l-sample-app">
-    <div>
-      <div class="main-container">
-        <div class="list">
-          <fp-top-menu></fp-top-menu>
-          <router-outlet></router-outlet>
-        </div>
+<fp-top-menu></fp-top-menu>
+<main class="l-main l-sample-app">
+  <div>
+    <div class="main-container">
+      <div class="list">
+        <router-outlet></router-outlet>
       </div>
     </div>
-  </main>
-</div>
+  </div>
+</main>

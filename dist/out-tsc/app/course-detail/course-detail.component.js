@@ -9,21 +9,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component } from '@angular/core';
 import { CoursesService } from "../shared/model/courses.service";
-export var CoursesComponent = (function () {
-    function CoursesComponent(coursesService) {
+import { ActivatedRoute } from "@angular/router";
+export var CourseDetailComponent = (function () {
+    function CourseDetailComponent(route, coursesService) {
+        this.route = route;
         this.coursesService = coursesService;
     }
-    CoursesComponent.prototype.ngOnInit = function () {
-        this.courses$ = this.coursesService.findAllCourses();
+    CourseDetailComponent.prototype.ngOnInit = function () {
+        var courseUrl = this.route.snapshot.params['id'];
+        this.coursesService.findLessonsForCourse(courseUrl);
     };
-    CoursesComponent = __decorate([
+    CourseDetailComponent = __decorate([
         Component({
-            selector: 'fp-courses',
-            templateUrl: './courses.component.html',
-            styleUrls: ['./courses.component.css']
+            selector: 'fp-course-detail',
+            templateUrl: './course-detail.component.html',
+            styleUrls: ['./course-detail.component.css']
         }), 
-        __metadata('design:paramtypes', [CoursesService])
-    ], CoursesComponent);
-    return CoursesComponent;
+        __metadata('design:paramtypes', [ActivatedRoute, CoursesService])
+    ], CourseDetailComponent);
+    return CourseDetailComponent;
 }());
-//# sourceMappingURL=C:/Users/Aleksandar/WebStormProjects/AngularUniversity-FinalProject/Final Poject/src/app/courses/courses.component.js.map
+//# sourceMappingURL=C:/Users/Aleksandar/WebStormProjects/AngularUniversity-FinalProject/Final Poject/src/app/course-detail/course-detail.component.js.map

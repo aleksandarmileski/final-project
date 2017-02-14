@@ -1,5 +1,6 @@
 import { HomeComponent } from "./home/home.component";
 import { CoursesComponent } from "./courses/courses.component";
+import { CourseDetailComponent } from "./course-detail/course-detail.component";
 export var routerConfig = [
     {
         path: 'home',
@@ -7,7 +8,16 @@ export var routerConfig = [
     },
     {
         path: 'courses',
-        component: CoursesComponent
+        children: [
+            {
+                path: ':id',
+                component: CourseDetailComponent
+            },
+            {
+                path: '',
+                component: CoursesComponent
+            }
+        ]
     },
     {
         path: '',
